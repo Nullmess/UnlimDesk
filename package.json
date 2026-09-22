@@ -1,0 +1,26 @@
+{
+  "name": "unlimdesk",
+  "productName": "UnlimDesk",
+  "version": "1.0.0",
+  "description": "Unofficial desktop client for Unlim Cloud, built with Electron.",
+  "author": "Nullmess",
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "app": "electron .",
+    "doctor": "node scripts/doctor.js",
+    "setup-linux": "bash scripts/setup-linux.sh",
+    "start:unsafe": "electron . --no-sandbox",
+    "clean": "node scripts/clean.js",
+    "build-win": "electron-packager . UnlimDesk --platform=win32 --arch=x64 --electron-version=44.4.3 --icon=./assets/app-icon.ico --overwrite --prune=true",
+    "build-mac": "electron-packager . UnlimDesk --platform=darwin --arch=x64 --electron-version=44.4.3 --icon=./assets/app-icon.icns --overwrite --prune=true",
+    "build-lin": "electron-packager . UnlimDesk --platform=linux --arch=x64 --electron-version=44.4.3 --icon=./assets/app-icon.png --overwrite --prune=true",
+    "build-all": "npm run build-win && npm run build-mac && npm run build-lin"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "44.4.3"
+  }
+}
