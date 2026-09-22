@@ -9,7 +9,7 @@
 ---
 
 <p align="center">
-    ☁️ Unofficial desktop client for Unlim Cloud, built with Electron.
+    ☁️ Unlim Cloud desktop client powered by Telegram storage.
 </p>
 
 <p align="center">
