@@ -1,0 +1,7 @@
+node_modules/
+UnlimDesk-win32-x64/
+UnlimDesk-linux-x64/
+UnlimDesk-darwin-x64/
+npm-debug.log*
+.DS_Store
+Thumbs.db
