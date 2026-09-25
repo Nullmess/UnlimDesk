@@ -16,6 +16,9 @@
     <a href="https://github.com/Nullmess/UnlimDesk/stargazers">
         <img src="https://img.shields.io/github/stars/Nullmess/UnlimDesk?style=flat&logo=github" alt="Stars">
     </a>
+    <a href="https://github.com/nullmess/UnlimDesk/releases/latest">
+        <img src="https://img.shields.io/github/v/release/nullmess/UnlimDesk?style=flat&label=release" alt="Release">
+    </a>
     <a href="LICENSE">
         <img src="https://img.shields.io/github/license/Nullmess/UnlimDesk?style=flat" alt="License">
     </a>
